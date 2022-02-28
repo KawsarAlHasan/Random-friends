@@ -33,7 +33,5 @@ const displayBoss = data => {
         let h6 = document.createElement('h6');
         h6.innerText = 'Gender:' + ' ' + buddy.gender;
         div.appendChild(h6);
-
-        console.log(buddy);
     }
 }
